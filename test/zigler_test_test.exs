@@ -1,8 +1,8 @@
 defmodule ZiglerTestTest do
   use ExUnit.Case
-  doctest ZiglerTest
 
-  test "greets the world" do
-    assert ZiglerTest.hello() == :world
+  test "we can sum a list" do
+    assert 10 == ZiglerTest.sum_list([2, 3, 5])
   end
+
 end

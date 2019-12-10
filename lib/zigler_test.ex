@@ -1,18 +1,19 @@
 defmodule ZiglerTest do
   @moduledoc """
-  Documentation for ZiglerTest.
+  A simple module that tests running zigler
   """
 
-  @doc """
-  Hello world.
+  use Zigler, app: :zigler_test
 
-  ## Examples
-
-      iex> ZiglerTest.hello()
-      :world
-
+  ~Z"""
+  /// nif: sum_list/1
+  fn sum_list(lst: []i64) i64 {
+    var result: i64 = 0;
+    for (lst) | item | {
+      result += item;
+    }
+    return result;
+  }
   """
-  def hello do
-    :world
-  end
+
 end
