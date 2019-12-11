@@ -22,7 +22,7 @@ defmodule ZiglerTest.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:zigler, git: "https://github.com/ityonemo/zigler"}
+      {:zigler, "~> 0.1.0"}
     ]
   end
 end
