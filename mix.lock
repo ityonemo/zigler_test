@@ -9,5 +9,5 @@
   "mojito": {:hex, :mojito, "0.6.0", "5563e5ec1dae5470532251e1a61e9ebf6317e3637dd634b7eb09902471194ace", [:mix], [{:castore, "~> 0.1", [hex: :castore, repo: "hexpm", optional: false]}, {:mint, "~> 1.0", [hex: :mint, repo: "hexpm", optional: false]}, {:poolboy, "~> 1.5", [hex: :poolboy, repo: "hexpm", optional: false]}], "hexpm"},
   "nimble_parsec": {:hex, :nimble_parsec, "0.5.2", "1d71150d5293d703a9c38d4329da57d3935faed2031d64bc19e77b654ef2d177", [:mix], [], "hexpm"},
   "poolboy": {:hex, :poolboy, "1.5.2", "392b007a1693a64540cead79830443abf5762f5d30cf50bc95cb2c1aaafa006b", [:rebar3], [], "hexpm"},
-  "zigler": {:git, "https://github.com/ityonemo/zigler", "1812bce457d27b6a76d6bf3f829d5966c488fa9e", [branch: "docs_for_clients"]},
+  "zigler": {:git, "https://github.com/ityonemo/zigler", "5f683f06b884af994d23fcd940345acd470aa604", []},
 }
